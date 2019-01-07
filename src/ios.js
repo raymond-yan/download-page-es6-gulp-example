@@ -32,8 +32,8 @@ export class IOSDownload {
                 getById('account-block').innerHTML +=
                     `
                     <div class="text-block text-hint">
-                        <p>${result.ios_account} <span>${accounts[0].account}<span></p>
-                        <p>${result.ios_password} <span>${accounts[0].password}<span></p>
+                        <p>${result.ios_account} <span>${item.account}<span></p>
+                        <p>${result.ios_password} <span>${item.password}<span></p>
                     </div>
                 `
             });
